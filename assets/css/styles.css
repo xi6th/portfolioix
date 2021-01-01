@@ -9,7 +9,7 @@
 
 /*===== Colores =====*/
 :root{
-    --first-color: #ff5953;
+    --first-color: #5361FF;
     --white-color: #FAFAFF;
     --dark-color: #2A3B47;
     --text-color: #697477;
@@ -185,13 +185,20 @@ img{
     height: calc(100vh - var(--header-height));
     row-gap: 5rem;
 }
+
+.author{
+    padding-top:2rem;
+    padding-left: 2rem;
+}
 .home__title{
     align-self: flex-end;
-    font-size: var(--big-font-size);
+    font-size: 2rem;
     color: var(--white-color);
-    padding-left:2rem;
+    /* padding-right:67rem; */
+    padding-bottom:2rem;
     line-height: .8;
 }
+
 .home__title span{
     text-shadow: 0 20px 25px rgba(0,0,0,.5);
 }
@@ -227,6 +234,7 @@ img{
     border-radius: 50%;
     overflow: hidden;
 }
+
 .about__img img{
     width: 100px;
 }
@@ -236,8 +244,13 @@ img{
     margin-bottom: var(--mb-1);
 }
 .about__text{
-    margin-bottom: var(--mb-4);
+    margin-bottom: 0.2rem;
+    text-indent: 20px;
 }
+
+/* .about_text2{
+    text-indent: 20px;
+} */
 
 .about__profession{
     display: block;
